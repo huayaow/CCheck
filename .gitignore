@@ -1,0 +1,19 @@
+# Java class files
+*.class
+
+# General files
+*.log
+.DS_Store
+
+# generated files
+bin/
+gen/
+out/
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+

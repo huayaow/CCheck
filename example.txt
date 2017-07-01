@@ -1,0 +1,15 @@
+parameter 4    # number of parameter
+value 3 3 3 3  # values of each parameter
+check 2 3 4    # coverage strengths to be checked, 6 at most
+subcheck       # check variable strengths, optional
+2; 0 1 2
+3; 0 2 3  
+begin          # the begin of test suite
+2 2 1 0
+1 0 0 0 
+0 2 0 2 
+1 1 1 2 
+0 1 2 1 
+1 2 1 1 
+2 0 2 2 
+end            # end mark
